@@ -1,0 +1,41 @@
+.logodaloja {
+    width: 20%;
+    
+    }
+    
+    .menu-options {
+        display: flex;
+        justify-content: space-around;
+        height: 100px;
+        align-items: center;
+        background-color: #04449c;
+    }
+    
+    .menu-options li {
+        background-color: #04449c;
+        flex: 1;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .menu-item {
+        font-size: 150%;
+        text-transform: capitalize;
+        color: white;
+        text-decoration: none;
+        font-family: 'Sofia Sans', sans-serif;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    @media screen and (max-width: 992px) {
+        .menu-options {
+            display: block;
+        }  
+    
+        .logodaloja {
+            width: 15%;
+            flex-direction: column;
+        }
+    }
